@@ -1,0 +1,8 @@
+[project]
+name = "metasolana-bot"
+
+[[service]]
+name = "bot"
+path = "."
+start = "npm run start:bot"
+build = "npm ci && npm run build"
